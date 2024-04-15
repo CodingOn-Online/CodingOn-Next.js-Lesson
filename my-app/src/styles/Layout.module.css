@@ -1,0 +1,25 @@
+/* src/styles/Layout.module.css */
+
+.main {
+  min-height: 80vh;
+  margin: 20px;
+}
+
+.nav,
+.footer {
+  padding: 20px;
+  display: flex;
+  justify-content: space-between;
+  color: white;
+}
+
+.nav {
+  background-color: var(--color-orange);
+  font-weight: bold;
+}
+
+.footer {
+  background-color: black;
+  font-size: 12px;
+  text-align: center;
+}

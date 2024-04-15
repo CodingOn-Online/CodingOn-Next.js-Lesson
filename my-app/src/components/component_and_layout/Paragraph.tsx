@@ -12,6 +12,16 @@ export default function Paragraph({ content }: Props) {
         <br />
         {content}
       </div>
+      <style jsx>{`
+        .paragraph {
+          margin: 20px;
+          padding: 20px;
+          border: 0px;
+          border-radius: 20px;
+          background-color: white;
+          cursor: default;
+        }
+      `}</style>
     </>
   );
 }
