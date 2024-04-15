@@ -8,8 +8,8 @@ export default function Footer() {
     <>
       <footer className={styles.footer}>
         <div>Github</div>
-        <Link href="https://github.com/spr-engineering/nextjs_codingon">
-          https://github.com/spr-engineering/nextjs_codingon
+        <Link href="https://github.com/CodingOn-Online/Next.js-Lesson">
+          https://github.com/CodingOn-Online/Next.js-Lesson
         </Link>
       </footer>
     </>
